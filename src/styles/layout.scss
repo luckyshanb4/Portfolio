@@ -4,6 +4,7 @@
         height: 100vh;
         background-color: #191D2B;
         position: fixed;
+        border-right: 2px solid #2e344e;
 
     }
 
@@ -12,6 +13,13 @@
         margin-left: 16%;
         background-color: #10121B;
         min-height: 100vh;
+        background-image: url(../img/dots.svg);
+        display: grid;
+        position: relative;
+
+        .content{
+            margin: 5rem 10rem;
+        }
 
 
     }

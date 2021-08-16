@@ -14,39 +14,39 @@ function NavBar(props) {
                     <img src={avatar} alt=""/>
                 </div>
 
-                <ul className="nav-item">
+                <div className="nav-items">
 
-                    <li className="nav-item">
-                        <NavLink to="/" exact activeClassName="active">
+                    <div className="nav-item">
+                        <NavLink className="link" to="/" exact activeClassName="active">
                             Home
                         </NavLink>
-                    </li>
+                    </div>
 
-                    <li className="nav-item">
-                        <NavLink to="/about" exact activeClassName="active">
+                    <div className="nav-item">
+                        <NavLink className="link" to="/about" exact activeClassName="active">
                             About
                         </NavLink>
-                    </li>
+                    </div>
 
-                    <li className="nav-item">
-                        <NavLink to="/portfolios" exact activeClassName="active">
+                    <div className="nav-item">
+                        <NavLink className="link" to="/portfolios" exact activeClassName="active">
                             portfolios
                         </NavLink>
-                    </li>
+                    </div>
 
-                    <li className="nav-item">
-                        <NavLink to="/blogs" exact activeClassName="active">
+                    <div className="nav-item">
+                        <NavLink className="link" to="/blogs" exact activeClassName="active">
                             Blogs
                         </NavLink>
-                    </li>
+                    </div>
 
-                    <li className="nav-item">
-                        <NavLink to="/contact" exact activeClassName="active">
+                    <div className="nav-item">
+                        <NavLink className="link" to="/contact" exact activeClassName="active">
                             Contact
                         </NavLink>
-                    </li>
+                    </div>
 
-                </ul>
+                </div>
 
                 
 
