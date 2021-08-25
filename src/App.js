@@ -5,7 +5,6 @@ import HomePage from './Pages/HomePage';
 import { Switch,Route } from 'react-router';
 import AboutPage from './Pages/AboutPage';
 import PortfoliosPage from './Pages/PortfoliosPage';
-import BlogPage from './Pages/BlogPage';
 import ContactPage from './Pages/ContactPage';
 
 const App = () => {
@@ -26,9 +25,7 @@ const App = () => {
                         <Route path="/portfolios" exact>
                             <PortfoliosPage/>
                         </Route>
-                        <Route path="/blogs" exact>
-                            <BlogPage/>
-                        </Route>
+                    
                         <Route path="/contact" exact>
                             <ContactPage/>
                         </Route>

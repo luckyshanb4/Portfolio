@@ -32,13 +32,7 @@ function NavBar(props) {
                         <NavLink className="link" to="/portfolios" exact activeClassName="active">
                             portfolios
                         </NavLink>
-                    </div>
-
-                    <div className="nav-item">
-                        <NavLink className="link" to="/blogs" exact activeClassName="active">
-                            Blogs
-                        </NavLink>
-                    </div>
+                    </div>       
 
                     <div className="nav-item">
                         <NavLink className="link" to="/contact" exact activeClassName="active">
