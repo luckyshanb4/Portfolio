@@ -4,7 +4,6 @@ import MenuItems from '../components/MenuItems';
 import Tittle from '../components/Title';
 import portfolios from '../components/allportfolios';
 import { useState } from 'react';
-import ProjectSlide from '../components/ProjectSlide'
 
 const allCategories = ['All', ...new Set(portfolios.map(item => item.category))];
 
@@ -31,7 +30,7 @@ function PortfoliosPage() {
             <div className="portfolios-data">
                 <Categories filter={filter} categories={categories} />
                 <MenuItems menuItem={menuItems} />
-                <ProjectSlide/>
+            
             </div>
         </div>
     )

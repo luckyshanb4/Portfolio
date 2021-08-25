@@ -1,17 +1,13 @@
 import React from "react";
-import Image1 from '../img/ProjectsForPortfolio/ScheduleApp/1.PNG';
-import Image2 from '../img/ProjectsForPortfolio/ScheduleApp/2.PNG';
-import Image3 from '../img/ProjectsForPortfolio/ScheduleApp/3.PNG';
-import Image4 from '../img/ProjectsForPortfolio/ScheduleApp/4.PNG';
-import Image5 from '../img/ProjectsForPortfolio/ScheduleApp/5.PNG';
-import Image6 from '../img/ProjectsForPortfolio/ScheduleApp/6.PNG';
+import { useState } from 'react';
 
-const images = [Image1, Image2, Image3,Image4, Image5, Image6];
 const delay = 2500;
 
-function Slideshow() {
+function Slideshow({imagesList}) {
   const [index, setIndex] = React.useState(0);
   const timeoutRef = React.useRef(null);
+  const [images, setImages] = useState(imagesList);
+
 
   function resetTimeout() {
     if (timeoutRef.current) {
@@ -48,7 +44,7 @@ function Slideshow() {
           >
               <img 
               src={currentImage} 
-              style={{ width: 400 }}
+              style={{ width: 400}}
               resizeMode="contain"
               alt=""/>
           </div>

@@ -17,15 +17,18 @@ function HomePage(props) {
                     </p>
                     <div className="icons">
                     
-                    <Link className="iconHolder"> 
+                    <Link className="iconHolder" onClick={()=>{  
+                        window.open("https://github.com/luckyshanb4")      
+                    }}> 
                         <FontAwesomeIcon icon={faGithub} className="icon gh" />  
                     </Link>
-                    <Link className="iconHolder"> 
+
+                    <Link className="iconHolder" onClick={()=>{  
+                        window.open("https://www.linkedin.com/in/luckyshan-bandara")      
+                    }}> 
                         <FontAwesomeIcon icon={faLinkedin} className="icon li"/>  
                     </Link>
-                    <Link className="iconHolder"> 
-                        <FontAwesomeIcon icon={faFacebook} className="icon fb"/>  
-                    </Link>
+                   
                     
 
                     </div>
