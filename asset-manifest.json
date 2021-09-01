@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.d710c210.chunk.css",
-    "main.js": "/Portfolio/static/js/main.dce58ad1.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.dce58ad1.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.d9acd286.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.d9acd286.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.9b63ad2b.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.9b63ad2b.js.map",
     "static/js/2.708928ec.chunk.js": "/Portfolio/static/js/2.708928ec.chunk.js",
@@ -61,7 +61,7 @@
     "static/media/4.fbed921e.JPG": "/Portfolio/static/media/4.fbed921e.JPG",
     "static/media/5.85f0d42a.PNG": "/Portfolio/static/media/5.85f0d42a.PNG",
     "static/media/5.cea47e13.JPG": "/Portfolio/static/media/5.cea47e13.JPG",
-    "static/media/Luckyshan_Bandara.3c9450f8.pdf": "/Portfolio/static/media/Luckyshan_Bandara.3c9450f8.pdf",
+    "static/media/Luckyshan_Bandara.afbaa7db.pdf": "/Portfolio/static/media/Luckyshan_Bandara.afbaa7db.pdf",
     "static/media/about.c3a20f07.png": "/Portfolio/static/media/about.c3a20f07.png",
     "static/media/avatar.3c6b1aa2.png": "/Portfolio/static/media/avatar.3c6b1aa2.png",
     "static/media/App.scss": "/Portfolio/static/media/dots.9978678b.svg",
@@ -73,6 +73,6 @@
     "static/js/runtime-main.9b63ad2b.js",
     "static/js/2.708928ec.chunk.js",
     "static/css/main.d710c210.chunk.css",
-    "static/js/main.dce58ad1.chunk.js"
+    "static/js/main.d9acd286.chunk.js"
   ]
 }
